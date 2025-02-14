@@ -39,6 +39,7 @@ export default function PageRoute() {
         <img
           src={`https://directus.pizza/assets/${image.filename_download}`}
           alt={image.description}
+          width={300}
         />
         <div
           dangerouslySetInnerHTML={{ __html: content }}
